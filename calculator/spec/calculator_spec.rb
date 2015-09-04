@@ -15,7 +15,7 @@ describe Calculator do
 
     result = calculator.add(1,2)
 
-    expect(result).to eq(3)
+    expect(result).to eq(3 )
   end
 
   it 'should multiply given two numbers' do

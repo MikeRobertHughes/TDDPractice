@@ -16,6 +16,37 @@ class Calculator
   end
 end
 
+# Initial hard-coded test
+  # calculator = Calculator.new
+  # result = calculator.add(1, 1)
+  # puts result
+
+# Slightly more advanced, hard-coded test
+  # calculator = Calculator.new
+  # result = calculator.add(1,2)
+  # if result == 3
+  #   puts "Addition passed"
+  # else
+  #   puts "Addition failed"
+  # end
+
+# Improved, advanced hard-coded test
+  # calculator = Calculator.new
+  # result = calculator.add(1,2)
+  # if result == 3
+  #   print "\033[32m Addition passed \033[0m"
+  # else
+  #   print "\e[31m Addition failed \e[0m"
+  # end
+
+  # result2 = calculator.subtract(2, 1)
+  # if result2 == 1
+  #   print "\033[32m Subtraction passed \033[0m"
+  # else
+  #   print "\e[31m Subtraction failed \e[0m"
+  # end
+
+# Create 'verify' method to remove duplication
 def verify(expected, actual, message)
   if actual == expected
     print "\033[32m #{message} passed \033[0m"
